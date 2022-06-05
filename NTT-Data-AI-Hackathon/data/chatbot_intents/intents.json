@@ -1,0 +1,59 @@
+{"intents":[
+
+    {"tag":"greetings",
+    "patterns": ["hello", "hey","hi", "hi buddy" ,  "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses":["Hello","Hey!", "What can I do for you?"]
+    },
+    
+    {"tag":"goodbye",
+    "patterns": ["Cya", "see you later","Goodbye", "I am leaving", "Have a Good day", "bye", "cao","see ya "],
+    "responses":["Sad to see you go :(","Talk to you later", "Goodbye!"]
+    },
+    
+    {"tag":"cancerInfo",
+    "patterns": ["what is Cancer?", "How can anyone get cancer?"],
+    "responses":["A disease in which abnormal cells divide uncontrollably and destroy body tissue. Some genetic changes causes cells to divide uncontrollably and provides ability to the cells to spread to other locations and destroys them. "]
+    },
+
+    {"tag":"BreastcancerInfo",
+        "patterns": ["what is BC?", "What is Breast Cancer?"],
+        "responses":["When cells divide uncontrollably in Breast and have ability to spread outside the Breast to other organs and destory the surround tissue is called Breast Cancer. If not treated, it can spread and destroy important organs and cause death."]
+    },
+
+    {"tag":"tumor",
+    "patterns": ["what is tumor?", "What is lump?", "What is benign tumor?", "What is malignant tumor" ],
+    "responses":["A tumor or lump is any abnormal mass of tissue or swelling. Like a cyst, a tumor can form in any part of the body. A tumor can be benign or cancerous (malignant), A benign tumor has distinct, smooth, regular borders. A malignant tumor has irregular borders and grows faster than a benign tumor. \n A malignant tumor can also spread to other parts of your body. A benign tumor can become quite large, but it will not invade nearby tissue or spread to other parts of your body."]
+    },
+
+    {"tag":"cyst",
+        "patterns": ["what is cyst?", "what causes cyst?" ],
+        "responses":["A cyst is a sac that may be filled with air, fluid or other material. A cyst can form in any part of the body, including bones, organs and soft tissues. Most cysts are noncancerous (benign), but sometimes cancer can cause a cyst."]
+    },
+
+    {"tag":"DCIS",
+    "patterns": ["What is DCIS?", "What is Ductul carcinoma in situ","What is Pre-cancer or ducts?", "what us stage 0 cancer of Ducts?", "DCIS recovery"],
+    "responses":["Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast. DCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct.  However the cells can bcome invasive in due time can spread to other organs. Hence It should be treated by consulting a Oncologist/OncoSurgen. The positive news is that if you have only DCIS without Invasive componenet, the 10 year survival rate is 98%, however if you are diagonized  with DCIS, you will need fequent monitoring  even after treatment as your risk of cancer increases if you had DCIS."]
+    },
+    
+    
+    {"tag":"LCIS",
+        "patterns": ["What is LCIS?", "What is Lobular carcinoma in situ","What is Pre-cancer or Lobubles?", "what us stage 0 cancer of Lobules?", "LCIS recovery"],
+        "responses":["Lobular carcinoma in situ (LCIS) is the presence of abnormal cells inside a milk lobules in the breast. LCIS is considered the earliest form of breast cancer. LCIS is noninvasive, meaning it hasn't spread out of the milk duct.  However the cells can bcome invasive in due time can spread to other organs. Hence It should be treated by consulting a Oncologist/OncoSurgen. The positive news is that if you have only LCIS without Invasive componenet, the 10 year survival rate is 98%, however if you are diagonized  with LCIS, you will need fequent monitoring  even after treatment as your risk of cancer increases if you had LCIS."]
+    },
+
+    
+    {"tag":"biopsy",
+        "patterns": ["Biopsy", "What is biopsy","What is Aspiration biopsy", "What is USG guided biopsy" ],
+        "responses":["A biopsy is a procedure to remove a piece of tissue or a sample of cells from your body so that it can be tested in a laboratory. In Aspiration biopsy a syringe is inserted to draw out some cells and those cells are checked under microscope. In USG guided biosy an ultrasonography machine is used to check the tumor and a neddle is inserted to draw some pieces of tumor to analyze under microsope"]
+    },
+
+    {"tag":"cure",
+        "patterns": ["Will I get cured of cancer", "Will I be cured?","Is there a cure for cancer", "Cure of cancer" ],
+        "responses":[" Breast Cancer at early stages can be cured in most of the cases. Even in advance stages, there are lots of treatment available, with the advancement in cancer treatment in recent years, patients can live a long long life"]
+    },
+    {"tag":"CancerRisk",
+        "patterns": ["Analyze my risk for Breast Cancer?", "Can I get breast cancer?","What are my chances to get breast cancer", "Is Age a factor to get breast cancer?" ],
+        "responses":["Anyone can get  Breast Cancer, however chances of getting Breast cancer are more if you or your first degree family memeber had history of Invasive or In situ Breast cancer"]
+    }
+]
+}
