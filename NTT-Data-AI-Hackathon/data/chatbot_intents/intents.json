@@ -49,11 +49,29 @@
 
     {"tag":"cure",
         "patterns": ["Will I get cured of cancer", "Will I be cured?","Is there a cure for cancer", "Cure of cancer" ],
-        "responses":[" Breast Cancer at early stages can be cured in most of the cases. Even in advance stages, there are lots of treatment available, with the advancement in cancer treatment in recent years, patients can live a long long life"]
+        "responses":[" Breast Cancer at early stages can be cured in most of the cases. Even in advance stages, there are lots of treatment available, with the advancement in cancer treatment in recent years, patients can live a long life"]
     },
     {"tag":"CancerRisk",
         "patterns": ["Analyze my risk for Breast Cancer?", "Can I get breast cancer?","What are my chances to get breast cancer", "Is Age a factor to get breast cancer?" ],
         "responses":["Anyone can get  Breast Cancer, however chances of getting Breast cancer are more if you or your first degree family memeber had history of Invasive or In situ Breast cancer"]
+    },
+    {"tag":"treatment",
+        "patterns": ["what is the treatment of cancer", "what is the treatment of in-situ cancer","Is it mandatory to take chemo during cancer treatment?", "For How long the cancer tereatment goes on" ],
+        "responses":["Surgery is the main form of treatment, if there is not much spread of cancer in body, Surgery will be done first(Mestactomy or Lumpactomy)\nFollowed by Chemotherapy and Radiation. Sometimes chemo and Radition will be given together. Sometimes Radition may not be given depending on age and type of cancer. In case of advance or stage 4 cases, Chemo is usually recommend before surgery"]
+    },
+    {"tag":"stages",
+        "patterns": ["What are stages of cancer", " How many stages are there in cancer" ],
+        "responses":["If the cancer is in-situ with no invasive component its called stage 0 or precancer\nIf cancer is invasive that it as move to nearby breast tissue other than where it originated but has size less than 2 cm and not spread to other organs or lymp node its called stage 1.\nIf the cancer is more than 2 cm but not invaded lymp node and is invasive its called stage 2, if the cancer has invaded lymp node but not spread to other organs its called stage 3 and if the cancer has spread to other organs its called stage 4"]
+    },
+    
+    {"tag":"survival",
+        "patterns": ["What are my chances of surving breast cancer, will I survive breast cancer?, Breast cancer prognosis."],
+        "responses":["If caught early nearly 99% of Breast cancer can be cured, hence its very important to do Breast Checkups.\n If the cancer is localized 5-yrs survival rate is 99%/\nIf the cancer is regional and  spread to lymp node the survival rate is 86% and if the cancer is spread  to other organs the survival rate is 29%.\n The above figures do not distinguish between different type of Breast caners. The prognosis depends on cancer types as well. "]
+    },
+
+    {"tag":"hormoneRelation",
+        "patterns": ["What are hormone postive Breast cancer", "What is ER PR postive cancer", "What is ER PR negative cancer", "What is ER postive", "what is PR postive"],
+        "responses":["Cancer cells can have hormone receptors, that is hormones might fuel the growth of cancer cels, if there are Estrogen hormone receptor they are called ER Positive Cancers, if there are Progestrone hormone receptors they are called PR positive cancer, There are more treatment options available or ER/PR positive cancer and becaue of this these types of cancer have better prognosis when compared to ER/PR negative cancers"]
     }
 ]
 }
