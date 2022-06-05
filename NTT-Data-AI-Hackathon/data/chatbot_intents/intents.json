@@ -72,6 +72,11 @@
     {"tag":"hormoneRelation",
         "patterns": ["What are hormone postive Breast cancer", "What is ER PR postive cancer", "What is ER PR negative cancer", "What is ER postive", "what is PR postive"],
         "responses":["Cancer cells can have hormone receptors, that is hormones might fuel the growth of cancer cels, if there are Estrogen hormone receptor they are called ER Positive Cancers, if there are Progestrone hormone receptors they are called PR positive cancer, There are more treatment options available or ER/PR positive cancer and becaue of this these types of cancer have better prognosis when compared to ER/PR negative cancers"]
+    },
+
+    {"tag":"symptoms",
+        "patterns": ["What are symptopms of Breast cancer?", "Does Breast Cancer causes lumps?", "I have cyst in breast can it be a cancer?", "My nipple is inverted can it be a cancer?"],
+        "responses":["Major Breast Cancer symptoms are\n New lump in the breast or underarm (armpit). \nThickening or swelling of part of the breast.\nIrritation or dimpling of breast skin.\nRedness or flaky skin in the nipple area or the breast.\nPulling in of the nipple or pain in the nipple area or inverted nipple.\nNipple discharge other than breast milk, including blood.\nAny change in the size or the shape of the breast.\nPain in any area of the breast.\nKeep in mind that these symptoms can happen with other conditions that are not cancer.\nHowever If you have any signs or symptoms that worry you, be sure to see your doctor right away.In Few case it can happen that they might be a non-palpable lump initially during start of cancer, in case you are at risk of cancer or have BRCA1 or BRCA2 gene mution or family history of Breast caner consult your physician to get you checked using Sono or Mamogram"]
     }
 ]
 }
