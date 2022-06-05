@@ -8,5 +8,5 @@ Creates a Breast Cancer Helper Chatbot which:
 
 # Steps to run chat bot.
 
-1. Run Train Breast Cancer NLP Model for Chatbot.ipynb {https://github.com/gpaikane/Breast-Cancer-Helper-Chatbot/blob/main/NTT-Data-AI-Hackathon/Train%20Breast%20Cancer%20NLP%20Model%20for%20Chatbot.ipynb}
+1. Run Train Breast Cancer NLP Model for Chatbot.ipynb<https://github.com/gpaikane/Breast-Cancer-Helper-Chatbot/blob/main/NTT-Data-AI-Hackathon/Train%20Breast%20Cancer%20NLP%20Model%20for%20Chatbot.ipynb>
 
