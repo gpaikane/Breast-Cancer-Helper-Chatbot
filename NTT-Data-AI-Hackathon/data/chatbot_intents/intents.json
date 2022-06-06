@@ -1,0 +1,99 @@
+{"intents":[
+
+    {"tag":"greetings",
+    "patterns": ["hello", "hey","hi", "hi buddy" ,  "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses":["Hello","Hey!", "What can I do for you?"]
+    },
+    
+    {"tag":"goodbye",
+    "patterns": ["Cya", "see you later","Goodbye", "I am leaving", "Have a Good day", "bye", "cao","see ya "],
+    "responses":["Talk to you later", "Goodbye!"]
+    },
+    
+    {"tag":"cancerInfo",
+    "patterns": ["what is Cancer?", "How can anyone get cancer?"],
+    "responses":["A disease in which abnormal cells divide uncontrollably and destroy body tissue. Some genetic changes cause cells to divide uncontrollably and provides ability to the cells to spread to other locations and destroys them. Exact cause of Breast Cancer is not known, but having family history, obesity, Age, Reproductive history, BRCA1 and BRCA2 gene mutation are considered some of the risk factors"]
+    },
+
+    {"tag":"BreastcancerInfo",
+        "patterns": ["what is BC?", "What is Breast Cancer?"],
+        "responses":["When cells divide uncontrollably in Breast and have ability to spread outside the Breast to other organs and destroy the surround tissue is called Breast Cancer. If not treated, it can spread and destroy important organs and cause death."]
+    },
+
+    {"tag":"tumor",
+    "patterns": ["what is tumor?", "What is lump?", "What is benign tumor?", "What is malignant tumor" ],
+    "responses":["A tumor or lump is any abnormal mass of tissue or swelling. Like a cyst, a tumor can form in any part of the body. A tumor can be benign or cancerous (malignant), A benign tumor has distinct, smooth, regular borders. A malignant tumor has irregular borders and grows faster than a benign tumor. \n A malignant tumor can also spread to other parts of your body. A benign tumor can become quite large, but it will not invade nearby tissue or spread to other parts of your body."]
+    },
+
+    {"tag":"cyst",
+        "patterns": ["what is cyst?", "what causes cyst?" ],
+        "responses":["A cyst is a sac that may be filled with air, fluid or other material. A cyst can form in any part of the body, including bones, organs and soft tissues. Most cysts are noncancerous (benign), but sometimes cancer can cause a cyst."]
+    },
+
+    {"tag":"DCIS",
+    "patterns": ["What is DCIS?", "What is Ductal carcinoma in situ","What is Pre-cancer or ducts?", "what us stage 0 cancer of Ducts?", "DCIS recovery"],
+    "responses":["Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast. DCIS is considered the earliest form of breast cancer. DCIS is non-invasive, meaning it hasn't spread out of the milk duct.  However, the cells can become invasive in due time can spread to other organs. Hence It should be treated by consulting an Oncologist/OncoSurgen. The positive news is that if you have only DCIS without Invasive component, the 10-year survival rate is 98%, however if you are dragonized with DCIS, you will need frequent monitoring even after treatment as your risk of cancer increases if you had DCIS."]
+    },
+    
+    
+    {"tag":"LCIS",
+        "patterns": ["What is LCIS?", "What is Lobular carcinoma in situ","What is Pre-cancer or Lobules?", "what us stage 0 cancer of Lobules?", "LCIS recovery"],
+        "responses":["Lobular carcinoma in situ (LCIS) is the presence of abnormal cells inside some milk lobules in the breast. LCIS is considered the earliest form of breast cancer. LCIS is non-invasive, meaning it hasn't spread out of the milk duct.  However, the cells can become invasive in due time can spread to other organs. Hence It should be treated by consulting an Oncologist/OncoSurgen. The positive news is that if you have only LCIS without Invasive component, the 10-year survival rate is 98%, however if you are dragonized with LCIS, you will need frequent monitoring even after treatment as your risk of cancer increases if you had LCIS."]
+    },
+
+    
+    {"tag":"biopsy",
+        "patterns": ["Biopsy", "What is biopsy","What is Aspiration biopsy", "What is USG guided biopsy" ],
+        "responses":["A biopsy is a procedure to remove a piece of tissue or a sample of cells from your body so that it can be tested in a laboratory. In Aspiration biopsy a syringe is inserted to draw out some cells and those cells are checked under microscope. In USG guided biopsy an ultrasonography machine is used to check the tumor and a needle is inserted to draw some pieces of tumor to analyse under microscope. Biopsy is perfpormed under local anesthesia hence it is not painful."]
+    },
+
+    {"tag":"cure",
+        "patterns": ["Will I get cured of cancer", "Will I be cured?","Is there a cure for cancer", "Cure of cancer" ],
+        "responses":[" Breast Cancer at early stages can be cured in most of the cases. Even in advance stages, there are lots of treatment available, with the advancement in cancer treatment in recent years, patients can live a long life"]
+    },
+    {"tag":"CancerRisk",
+        "patterns": ["Analyse my risk for Breast Cancer?", "Can I get breast cancer?","What are my chances to get breast cancer", "Is Age a factor to get breast cancer?", "assess risk of breast cancer" , "Can you please assess my risk of breast cancer"],
+        "responses":["Anyone can get Breast Cancer, however chances of getting Breast cancer are more if you or your first degree family member had history of Invasive or in situ Breast cancer"]
+    },
+    {"tag":"treatment",
+        "patterns": ["what is the treatment of cancer", "what is the treatment of in-situ cancer","Is it mandatory to take chemo during cancer treatment?", "For How long the cancer treatment goes on", "What are BC treatment options" ],
+        "responses":["Surgery is the main form of treatment, if there is not much spread of cancer in body, Surgery will be done first (Mastectomy or Lumpectomy) \nfollowed by Chemotherapy and Radiation. Sometimes chemo and Radiation will be given together. Sometimes Radiation may not be given depending on age and type of cancer. In case of advance or stage 4 cases, Chemo is usually recommending before surgery. Duration of treatment depends on type and spread of cancer, for stage 4 cancer the treatment is usually lifelong. Immunotherapy is a newer form of treatment mostly used to treat advance cancer."]
+    },
+    {"tag":"stages",
+        "patterns": ["What are stages of cancer", " How many stages are there in cancer" ],
+        "responses":["If the cancer is in-situ with no invasive component it’s called stage 0 or precancerous\nIf cancer is invasive that it has move to nearby breast tissue other than where it originated but has size less than 2 cm and not spread to other organs or lymph node it’s called stage 1.\nIf the cancer is more than 2 cm but not invaded lymph node and is invasive it’s called stage 2, if the cancer has invaded lymph node but not spread to other organs it’s called stage 3 and if the cancer has spread to other organs it’s called stage 4"]
+    },
+    
+    {"tag":"survival",
+        "patterns": ["What are my chances of surviving breast cancer", "will I survive breast cancer?", "Breast cancer prognosis.","How long can I live with Cancer"],
+        "responses":["If caught early nearly 99% of Breast cancer can be cured, hence it’s very important to do Breast Check-ups.\n If the cancer is localized 5-yrs survival rate is 99%/\nIf the cancer is regional and spread to lymph node the survival rate is 86% and if the cancer is spread to other organs the survival rate is 29%.\n The above figures do not distinguish between different type of Breast cancers. The prognosis depends on cancer types as well. "]
+    },
+
+    {"tag":"hormoneRelation",
+        "patterns": ["What are hormone positive Breast cancer", "What is ER PR positive cancer", "What is ER PR negative cancer", "What is ER positive", "what is PR positive"],
+        "responses":["Cancer cells can have hormone receptors, that is hormones might fuel the growth of cancer cells, if there are Estrogen hormone receptor they are called ER Positive Cancers, if there are Progesterone hormone receptors they are called PR positive cancer, There are more treatment options available or ER/PR positive cancer and because of this these types of cancer have better prognosis when compared to ER/PR negative cancers as ER/PR negative lack the hormone receptors medicine like hormone inhabitors cannot be used for hormone negative cancers"]
+    },
+
+    {"tag":"symptoms",
+        "patterns": ["What are symptoms of Breast cancer?", "Does Breast Cancer causes lumps?", "I have cyst in breast can it be a cancer?", "My nipple is inverted can it be a cancer?"],
+        "responses":["Major Breast Cancer symptoms are\n1. New lump in the breast or underarm (armpit). \n2.Thickening or swelling of part of the breast.\n3.Irritation or dimpling of breast skin.\n4.Redness or flaky skin in the nipple area or the breast.\n5.Pulling in of the nipple or pain in the nipple area or inverted nipple.\n6.Nipple discharge other than breast milk, including blood.\n7.Any change in the size or the shape of the breast.\n8.Pain in any area of the breast.\n\nKeep in mind that these symptoms can happen with other conditions that are not cancer.\nhowever If you have any signs or symptoms that worry you, be sure to see your doctor right away.In Few case it can happen that there might be a non-palpable lump which might be cancerous but can only be detected using sono or mamogram, in case you are at risk of cancer or have BRCA1 or BRCA2 gene mutation or family history of Breast cancer consult your physician to get you checked using Sono or Mammogram"]
+    },
+
+    {"tag":"chemotherapy",
+        "patterns": ["What is chemotherapy?","Is chemo painful?","Is chemo mandatory for cancer treatment", "Does chemo have side effects?", "Is chemotherapy painful"],
+        "responses":["Chemotherapy is cancer treatment with drugs, unlike surgery which is performed on a site, chemo targets all the cells which might be spread to different locations but are not visible to scanning devices. Chemotherapy has variety of side effects like hair loss, Nausea, vomiting, decrease in platelet count, but not all symptoms are seen for all individuals, most common symptom is hair loss.\nNow a day There are new chemo drugs which have less side effects."]
+    },
+
+    {"tag":"Immunotherapy",
+            "patterns": ["What is Immunotherapy?","Are they any new treatments for cancer","Is immunotherapy a cure", "Does Immunotherapy have side effects?"],
+            "responses":["Immunotherapy is a newer form of treatment which helps your immune system to kill cancer cells. 15-20% of patients achieve durable results with immunotherapy even for advance stages."]
+    },
+
+    {"tag":"types",
+        "patterns": ["What are different types of Breast Cancers", "Types of Breast Cancer","how many breast cancer types are there"],
+        "responses":["There are multiple types of Breast Cancers:\n1.Ductal carcinoma in situ (DCIS): Ductal carcinoma in situ (DCIS; also known as intraductal carcinoma) is a non-invasive or pre-invasive breast cancer.\n2.Invasive breast cancer (ILC or IDC): Invasive (or infiltrating) breast cancer has spread into surrounding breast tissue. The most common types are invasive ductal carcinoma and invasive lobular carcinoma. Invasive ductal carcinoma makes up about 70-80% of all breast cancers.\n3.Triple-negative breast cancer: Triple-negative breast cancer is an aggressive type of invasive breast cancer in which the cancer cells don’t have estrogen or progesterone receptors (ER or PR) and also don’t make any or too much of the protein called HER2. (The cells test 'negative' on all 3 tests.) It accounts for about 15% of all breast cancers and can be a difficult cancer to treat.\nInflammatory breast cancer: Inflammatory breast cancer is an aggressive type of invasive breast cancer in which cancer cells block lymph vessels in the skin, causing the breast to look 'inflamed.' It is rare and accounts for about 1% to 5% of all breast cancers."]
+    }
+    
+]
+}
+
