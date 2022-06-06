@@ -15,3 +15,6 @@ Clone the repo locally and run following steps locally.
 
 
 Note: Model created by 2. Run `Breast Cancer Risk Predictor Model.ipynb` cannot be uploaded to git as its more than 100MB.
+
+
+Demo video of the chat box is located here: https://drive.google.com/file/d/1u_p9lXhqM9tBx6-nbzJA9TtvmLnFs8XF/view?usp=sharing
