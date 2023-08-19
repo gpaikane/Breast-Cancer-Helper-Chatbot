@@ -1,5 +1,6 @@
 # Breast-Cancer-Helper-Chatbot
 This repo contains code to create Breast Cancer Helper Chatbot for NTT Data AI Hackathon
+(For Hackathon we are requested to create an app with any available data set using DL/ML)
 
 Creates a Breast Cancer Helper Chatbot which:
 
